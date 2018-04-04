@@ -1,0 +1,75 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1518515344518-668eb0c53353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c02d5bd8de279db1a2f74ea59f9283d&auto=format&fit=crop&w=1350&q=80);
+  background-size: 100%;
+  padding: 30px 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #373835;
+  text-align: center;
+}
+
+.calculator {
+  max-width: 350px;
+  min-width: 120px;
+  margin: 0 auto;
+  border: 2px solid #111;
+  border-radius: 5px;
+}
+
+.displayScreen{
+  padding: 2px 0px;
+  min-height: 100px;
+  mn-width: 120px;
+  border-bottom: 2px solid #1C1C1B;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  background: #e87d5a; /* Old browsers */
+  background: -moz-linear-gradient(top, #e87d5a 3%, #ed4228 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e87d5a 3%,#ed4228 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e87d5a 3%,#ed4228 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#e87d5a', endColorstr='#ed4228',GradientType=0 ); /* IE6-9 */
+}
+
+.displayScreen p {
+  padding: 0px 5px;
+  margin: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc-buttons {
+  background: #373835;
+  border: 1px solid #1C1C1B; 
+  padding: 20px;
+  color: #EEE; 
+  font-size: 22px; 
+  cursor: pointer; 
+}
+
+.numbers {
+  background: #494A46;
+  color: #EEE; 
+}
+
+.orange {
+  color: #E87D5A; 
+}
+
+#zero-button {
+  grid-column: span 2;
+  align-item: center;
+}
+
+#equal {
+  grid-row: span 2;
+  align-item: center:
+}
+
+#log{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
